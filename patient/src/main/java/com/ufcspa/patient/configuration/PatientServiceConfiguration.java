@@ -15,7 +15,4 @@ public class PatientServiceConfiguration {
 	@Value("${rest.hapifhir.patient.resource}}")
 	private String patientResource;
 	
-	@Value("${lhama.mode}}")
-	private String lhamaMode;
-
 }

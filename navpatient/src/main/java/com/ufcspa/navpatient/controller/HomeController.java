@@ -54,9 +54,9 @@ public class HomeController {
 		for (HumanName humanName : names) {
 				String given = "";
 				for (String givenName : humanName.getGiven()) {
-					given+=givenName;
+					given+=givenName + " ";
 				}
-				name+= " " + given;
+				name = given.trim();
 		}
 		return name;
 	}
